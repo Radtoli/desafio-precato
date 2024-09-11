@@ -63,7 +63,7 @@ app.get("/api/v1/precato/:status", async (req, res) => {
             return res.status(404).json({ error: "Nenhuma mensagem encontrada" });
             
         }
-        res.status(200).json({ items });
+        res.status(200).json({ count: items.length, items });
     } catch (error) {
         return res.status(500).json({ error: error.message });
     }
