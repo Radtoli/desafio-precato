@@ -76,7 +76,7 @@ project-root/
 │   └── messageRoutes.js    # Definição das rotas da API relacionadas às mensagens
 │
 ├── app.js                 # Ponto de entrada principal da aplicação Express
-└── package.json           # Configurações e dependências do projeto```
+└── package.json           # Configurações e dependências do projeto
 
 
 ## Configuração do banco de dados
