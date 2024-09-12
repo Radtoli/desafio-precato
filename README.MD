@@ -57,7 +57,8 @@ A API estará disponível em `http://localhost:3000`.
 
 O projeto está organizado nas seguintes pastas principais:
 
-`project-root/
+```bash
+project-root/
 │
 ├── config/
 │   └── database.js        # Configuração da conexão com o banco de dados PostgreSQL via Sequelize
@@ -75,9 +76,10 @@ O projeto está organizado nas seguintes pastas principais:
 │   └── messageRoutes.js    # Definição das rotas da API relacionadas às mensagens
 │
 ├── app.js                 # Ponto de entrada principal da aplicação Express
-└── package.json           # Configurações e dependências do projeto`
+└── package.json           # Configurações e dependências do projeto```
 
-##Configuração do banco de dados
+
+## Configuração do banco de dados
 O arquivo `config/database.js` configura a conexão com o banco de daados PostgreSQL usando o Sequelize e utilizando varíaveis de ambiente para obter as credenciais de conexão
 
     import { Sequelize } from "sequelize";
