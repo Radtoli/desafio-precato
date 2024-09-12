@@ -28,7 +28,7 @@ Este projeto é uma API REST con o intuito de atualizar status de menssagens env
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu_usuario/nome_do_projeto.git
+    git clone https://github.com/Radtoli/desafio-precato.git
     cd nome_do_projeto
     ```
 
