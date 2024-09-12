@@ -29,7 +29,7 @@ Este projeto é uma API REST con o intuito de atualizar status de menssagens env
 
     ```bash
     git clone https://github.com/Radtoli/desafio-precato.git
-    cd nome_do_projeto
+    cd desafio-precato
     ```
 
 2. Instale as dependências:
