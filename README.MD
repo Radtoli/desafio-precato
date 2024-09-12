@@ -57,8 +57,7 @@ A API estará disponível em `http://localhost:3000`.
 
 O projeto está organizado nas seguintes pastas principais:
 
-`bash
-project-root/
+`project-root/
 │
 ├── config/
 │   └── database.js        # Configuração da conexão com o banco de dados PostgreSQL via Sequelize
@@ -95,7 +94,7 @@ O arquivo `config/database.js` configura a conexão com o banco de daados Postgr
 
 Tenha certeza que possui o PostgreSQL instalado e funcionando, e lembre-se de criar um banco de dados chamado "Precato".
 
-##Rotas da Api
+## Rotas da Api
 
  1. Atulizar o Status de uma menssagem
  **Endpoint:** `PUT /precato/:id/:status`
