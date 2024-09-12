@@ -57,7 +57,7 @@ A API estará disponível em `http://localhost:3000`.
 
 O projeto está organizado nas seguintes pastas principais:
 
-```bash
+```
 project-root/
 │
 ├── config/
@@ -77,6 +77,7 @@ project-root/
 │
 ├── app.js                 # Ponto de entrada principal da aplicação Express
 └── package.json           # Configurações e dependências do projeto
+```
 
 
 ## Configuração do banco de dados
